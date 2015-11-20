@@ -6,3 +6,4 @@ CSG polygon = Extrude.points(new Vector3d(0, 0, size),// This is the  extrusion 
                 new Vector3d(size*1.5,size),// upper right corner
                 new Vector3d(size/2,size)// upper left corner
         );
+return polygon
